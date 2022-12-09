@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F304439F94A80CB6C77A5AE /* Pods_KeepYourDistance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447C24BDD3757E8DBC0317E /* Pods_KeepYourDistance.framework */; };
+		A957320D246C3CB5006D4CFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A957320C246C3CB5006D4CFF /* AppDelegate.swift */; };
+		A957320F246C3CB5006D4CFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A957320E246C3CB5006D4CFF /* SceneDelegate.swift */; };
+		A9573211246C3CB5006D4CFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9573210246C3CB5006D4CFF /* ViewController.swift */; };
+		A9573214246C3CB5006D4CFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9573212246C3CB5006D4CFF /* Main.storyboard */; };
+		A9573216246C3CB7006D4CFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9573215246C3CB7006D4CFF /* Assets.xcassets */; };
+		A9573219246C3CB7006D4CFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9573217246C3CB7006D4CFF /* LaunchScreen.storyboard */; };
+		A9573221246C459C006D4CFF /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9573220246C459C006D4CFF /* PreviewView.swift */; };
+		A9801178248A7B500099F223 /* GridNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9801177248A7B500099F223 /* GridNode.swift */; };
+		A9929E8D24757D1A00AC3358 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9929E8C24757D1A00AC3358 /* ARKit.framework */; };
+		A9929E8F2475A26D00AC3358 /* TapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9929E8E2475A26D00AC3358 /* TapGesture.swift */; };
+		A9A7552F2476AB6200F44FAC /* DistanceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A7552E2476AB6200F44FAC /* DistanceCalculator.swift */; };
+		A9A755312477072E00F44FAC /* LogContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A755302477072E00F44FAC /* LogContext.swift */; };
+		A9F69CC12480411D00E05415 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F69CC02480411D00E05415 /* WelcomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0447C24BDD3757E8DBC0317E /* Pods_KeepYourDistance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeepYourDistance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E8C9647F2F7DE348DEFD30 /* Pods-KeepYourDistance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepYourDistance.release.xcconfig"; path = "Target Support Files/Pods-KeepYourDistance/Pods-KeepYourDistance.release.xcconfig"; sourceTree = "<group>"; };
+		A9573209246C3CB5006D4CFF /* ARDistance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDistance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A957320C246C3CB5006D4CFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A957320E246C3CB5006D4CFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A9573210246C3CB5006D4CFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9573213246C3CB5006D4CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9573215246C3CB7006D4CFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9573218246C3CB7006D4CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A957321A246C3CB7006D4CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9573220246C459C006D4CFF /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		A9801177248A7B500099F223 /* GridNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridNode.swift; sourceTree = "<group>"; };
+		A9929E8C24757D1A00AC3358 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		A9929E8E2475A26D00AC3358 /* TapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGesture.swift; sourceTree = "<group>"; };
+		A9A7552E2476AB6200F44FAC /* DistanceCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceCalculator.swift; sourceTree = "<group>"; };
+		A9A755302477072E00F44FAC /* LogContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogContext.swift; sourceTree = "<group>"; };
+		A9F69CC02480411D00E05415 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		B9707867942CDB41BC99E4E3 /* Pods-KeepYourDistance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeepYourDistance.debug.xcconfig"; path = "Target Support Files/Pods-KeepYourDistance/Pods-KeepYourDistance.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9573206246C3CB5006D4CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9929E8D24757D1A00AC3358 /* ARKit.framework in Frameworks */,
+				8F304439F94A80CB6C77A5AE /* Pods_KeepYourDistance.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6834FD0492C4E6BCC76324C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9707867942CDB41BC99E4E3 /* Pods-KeepYourDistance.debug.xcconfig */,
+				10E8C9647F2F7DE348DEFD30 /* Pods-KeepYourDistance.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A9573200246C3CB5006D4CFF = {
+			isa = PBXGroup;
+			children = (
+				A957320B246C3CB5006D4CFF /* KeepYourDistance */,
+				A957320A246C3CB5006D4CFF /* Products */,
+				A9929E8B24757D1A00AC3358 /* Frameworks */,
+				6834FD0492C4E6BCC76324C7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A957320A246C3CB5006D4CFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9573209246C3CB5006D4CFF /* ARDistance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A957320B246C3CB5006D4CFF /* KeepYourDistance */ = {
+			isa = PBXGroup;
+			children = (
+				A9801176248A7B400099F223 /* Grid */,
+				A957320C246C3CB5006D4CFF /* AppDelegate.swift */,
+				A957320E246C3CB5006D4CFF /* SceneDelegate.swift */,
+				A9573210246C3CB5006D4CFF /* ViewController.swift */,
+				A9573212246C3CB5006D4CFF /* Main.storyboard */,
+				A9573215246C3CB7006D4CFF /* Assets.xcassets */,
+				A9573217246C3CB7006D4CFF /* LaunchScreen.storyboard */,
+				A957321A246C3CB7006D4CFF /* Info.plist */,
+				A9573220246C459C006D4CFF /* PreviewView.swift */,
+				A9929E8E2475A26D00AC3358 /* TapGesture.swift */,
+				A9A7552E2476AB6200F44FAC /* DistanceCalculator.swift */,
+				A9A755302477072E00F44FAC /* LogContext.swift */,
+				A9F69CC02480411D00E05415 /* WelcomeViewController.swift */,
+			);
+			path = KeepYourDistance;
+			sourceTree = "<group>";
+		};
+		A9801176248A7B400099F223 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				A9801177248A7B500099F223 /* GridNode.swift */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		A9929E8B24757D1A00AC3358 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9929E8C24757D1A00AC3358 /* ARKit.framework */,
+				0447C24BDD3757E8DBC0317E /* Pods_KeepYourDistance.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9573208246C3CB5006D4CFF /* KeepYourDistance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A957321D246C3CB7006D4CFF /* Build configuration list for PBXNativeTarget "KeepYourDistance" */;
+			buildPhases = (
+				BBE13ADBB772C063BC990C4B /* [CP] Check Pods Manifest.lock */,
+				A9573205246C3CB5006D4CFF /* Sources */,
+				A9573206246C3CB5006D4CFF /* Frameworks */,
+				A9573207246C3CB5006D4CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeepYourDistance;
+			productName = KeepYourDistance;
+			productReference = A9573209246C3CB5006D4CFF /* ARDistance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9573201246C3CB5006D4CFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1410;
+				ORGANIZATIONNAME = spearware;
+				TargetAttributes = {
+					A9573208246C3CB5006D4CFF = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A9573204246C3CB5006D4CFF /* Build configuration list for PBXProject "KeepYourDistance" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9573200246C3CB5006D4CFF;
+			productRefGroup = A957320A246C3CB5006D4CFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9573208246C3CB5006D4CFF /* KeepYourDistance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9573207246C3CB5006D4CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9573219246C3CB7006D4CFF /* LaunchScreen.storyboard in Resources */,
+				A9573216246C3CB7006D4CFF /* Assets.xcassets in Resources */,
+				A9573214246C3CB5006D4CFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BBE13ADBB772C063BC990C4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeepYourDistance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9573205246C3CB5006D4CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F69CC12480411D00E05415 /* WelcomeViewController.swift in Sources */,
+				A9801178248A7B500099F223 /* GridNode.swift in Sources */,
+				A9A7552F2476AB6200F44FAC /* DistanceCalculator.swift in Sources */,
+				A9573211246C3CB5006D4CFF /* ViewController.swift in Sources */,
+				A9573221246C459C006D4CFF /* PreviewView.swift in Sources */,
+				A9929E8F2475A26D00AC3358 /* TapGesture.swift in Sources */,
+				A957320D246C3CB5006D4CFF /* AppDelegate.swift in Sources */,
+				A957320F246C3CB5006D4CFF /* SceneDelegate.swift in Sources */,
+				A9A755312477072E00F44FAC /* LogContext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9573212246C3CB5006D4CFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9573213246C3CB5006D4CFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9573217246C3CB7006D4CFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9573218246C3CB7006D4CFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A957321B246C3CB7006D4CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A957321C246C3CB7006D4CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A957321E246C3CB7006D4CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9707867942CDB41BC99E4E3 /* Pods-KeepYourDistance.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 2HLRZ44AZ3;
+				INFOPLIST_FILE = KeepYourDistance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dornerworks.ARDistance;
+				PRODUCT_NAME = ARDistance;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A957321F246C3CB7006D4CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E8C9647F2F7DE348DEFD30 /* Pods-KeepYourDistance.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 2HLRZ44AZ3;
+				INFOPLIST_FILE = KeepYourDistance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dornerworks.ARDistance;
+				PRODUCT_NAME = ARDistance;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9573204246C3CB5006D4CFF /* Build configuration list for PBXProject "KeepYourDistance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A957321B246C3CB7006D4CFF /* Debug */,
+				A957321C246C3CB7006D4CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A957321D246C3CB7006D4CFF /* Build configuration list for PBXNativeTarget "KeepYourDistance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A957321E246C3CB7006D4CFF /* Debug */,
+				A957321F246C3CB7006D4CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9573201246C3CB5006D4CFF /* Project object */;
+}
