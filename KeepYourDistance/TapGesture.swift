@@ -1,10 +1,4 @@
-//
-//  TapGesture.swift
-//  KeepYourDistance
-//
-//  Created by Kraig Spear on 5/20/20.
-//  Copyright © 2020 spearware. All rights reserved.
-//
+
 
 import Combine
 import UIKit
